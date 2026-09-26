@@ -1,0 +1,4590 @@
+[
+  {
+    "source": {
+      "vertices": 0,
+      "edges": [],
+      "classes": []
+    },
+    "kind": "edge",
+    "expected": {
+      "order": []
+    }
+  },
+  {
+    "source": {
+      "vertices": 1,
+      "edges": [],
+      "classes": [
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 2,
+      "edges": [],
+      "classes": [
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 0
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    "seed": 1
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 2
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "seed": 3
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 4
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ]
+    },
+    "seed": 5
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 6
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 7
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 8
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 9
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 10
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 11
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 12
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ]
+    },
+    "seed": 13
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 14
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    "seed": 15
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 16
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 17
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 18
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 20
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 21
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 22
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ]
+    },
+    "seed": 23
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 24
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 25
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 26
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 27
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 30
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 32
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    "seed": 33
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 34
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        4,
+        3,
+        1,
+        2
+      ]
+    },
+    "seed": 35
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 36
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 38
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "seed": 39
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 40
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 41
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 43
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 44
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 45
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 46
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ]
+    },
+    "seed": 47
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 48
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 50
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    "seed": 51
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 52
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 53
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 54
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        1
+      ]
+    },
+    "seed": 55
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 58
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    "seed": 59
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 60
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3
+      ]
+    },
+    "seed": 61
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 62
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 63
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 64
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 65
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 67
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 68
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        0,
+        2
+      ]
+    },
+    "seed": 69
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 71
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 72
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 73
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        4,
+        5,
+        1,
+        3
+      ]
+    },
+    "seed": 75
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 76
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        3,
+        2,
+        1,
+        0,
+        4
+      ]
+    },
+    "seed": 77
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    "seed": 79
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 80
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        2,
+        4,
+        1,
+        0,
+        5,
+        3
+      ]
+    },
+    "seed": 81
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 82
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        3,
+        4,
+        1,
+        5
+      ]
+    },
+    "seed": 83
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 84
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    "seed": 85
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 87
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 88
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "seed": 89
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 90
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 92
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2
+      ]
+    },
+    "seed": 93
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 94
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "seed": 95
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 96
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    "seed": 97
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 98
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 99
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    "seed": 101
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 102
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ]
+    },
+    "seed": 103
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 105
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 106
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 108
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    "seed": 109
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 110
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "seed": 111
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "seed": 112
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 115
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 116
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 117
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 118
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 119
+  }
+]
