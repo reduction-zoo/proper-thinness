@@ -1,0 +1,7 @@
+{
+  "id": "Q035",
+  "source_definition": "The source gives a graph and a vertex partition. Its outputs are orders for which both the order and its reverse are consistent with the partition: if u<v<w, u and v share a class, and uw is an edge, then vw is an edge. Otherwise return NO-SOLUTION.",
+  "target_definition": "The source supplies a graph and vertex partition and asks for an order strongly consistent in both directions. The target supplies only a graph and a class budget, and asks for both a partition within that budget and such an order.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
